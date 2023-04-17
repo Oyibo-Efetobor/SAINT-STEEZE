@@ -1,0 +1,235 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    position: absolute;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+a{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+
+    .big-heading{
+        font-size:1.5rem;
+    }
+
+}
+
+@media (max-width: 1028px){
+
+    .cs{
+        width: 90%;
+    }
+    .cs h5{
+        font-size:medium;
+    }
+    .cs h6{
+        font-size: smaller;
+    }
+}
+
+.small-heading{
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px){
+    .small-heading{
+        font-size: 1rem;
+    }
+}
+#title{
+    background-color: #ae8c91;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 7% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 1028px){
+
+    .navbar-brand{
+        font-size: 1.5rem;
+    }
+
+}
+
+.stz{
+    background-color: black;
+    color: #ae8c91;
+}
+.stz-2{
+    color: black;
+}
+
+.title-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+
+    
+    }
+    
+
+}
+
+@media (max-width: 1028px){
+
+    .other-clothe-pic{
+        width:35%;
+    }
+
+}
+
+
+.txt-stz{
+    font-size: 3rem;
+    /* position: absolute; */
+    right: 38%;
+    top: 80%;
+    
+}
+
+@media (max-width: 1028px){
+    .txt-stz{
+        font-size: 1.5rem;
+    }
+}
+
+#clothe{
+    background-color: #e9ced2;
+}
+
+#end{
+    padding-top: 10%;
+    background-color: #ae8c91;
+    padding-bottom: 5%;
+    
+    
+}
+.cta-icon{
+    padding: 1%;
+}
+/* brand */
+
+#brand{
+    padding-top: 3%;
+    background-color: #ae8c91;
+}
+
+@media (max-width: 1028px){
+    .brand-pic{
+        width: 10%;
+    }
+
+}
+
+
+.brand-pic{
+    width: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* other-clothe */
+
+#other-clothe{
+    padding-top: 5%;
+    background-color: #e9ced2;
+}
+
+@media (max-width: 1028px){
+    .new_arrivals{
+
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .stz{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.cs:hover{
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+hr{
+    color: #e9ced2;
+    width: 10%;
+}
+
+.cs h5, h6{
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width: 1028px){
+    #all-cloth{
+
+        /* display: block; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+
+}
+
+/* FIXED THE EXTRA WHITE LINE */
+body{
+    overflow-x:hidden
+}
