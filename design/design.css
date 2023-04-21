@@ -78,7 +78,10 @@ a{
         font-size: 1.5rem;
     }
 
+
 }
+
+
 
 .stz{
     background-color: black;
@@ -156,20 +159,29 @@ a{
     background-color: #ae8c91;
 }
 
-@media (max-width: 1028px){
-    .brand-pic{
-        width: 10%;
-    }
 
-}
+
 
 
 .brand-pic{
-    width: 100px;
+    width: 40%;
     
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding: 5%;
+}
+
+@media (max-width: 1028px){
+    .brand-pic{
+        width: 30%;
+        padding: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+
 }
 
 /* other-clothe */
@@ -200,7 +212,12 @@ a{
 
 a{
     text-decoration: none;
+    color: black;
 }
+
+/* a :hover{
+    color: black;
+} */
 
 .cs:hover{
     width: 250px;
@@ -234,3 +251,4 @@ hr{
 body{
     overflow-x:hidden
 }
+
