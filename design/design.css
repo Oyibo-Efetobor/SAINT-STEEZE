@@ -248,7 +248,7 @@ hr{
 }
 
 /* FIXED THE EXTRA WHITE LINE */
-body{
+html,body{
     overflow-x:hidden
 }
 
